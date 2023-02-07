@@ -1,0 +1,26 @@
+package 조건문;
+
+public class if문2 {
+
+	public static void main(String[] args) {
+		int x = 0;
+		int y = 0;
+
+		if (x == y) { //true
+			System.out.println("x와y가 동일합니다.");
+		} else {
+			System.out.println("x와y가 동일하지 않아요.");
+		}
+
+		int id = 1111;
+		int id2 = 2222;
+
+		if (id == id2) {
+			System.out.println("로그인 성공.");
+		} else {
+			System.out.println("로그인 실패.");
+		}
+
+	}
+
+}
